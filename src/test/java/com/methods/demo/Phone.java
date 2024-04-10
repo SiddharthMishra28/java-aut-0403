@@ -16,12 +16,15 @@ public class Phone {
         }
     }
 
+    public int getRamCapacity() {
+        return ramCapacity;
+    }
+
     public void switchOffDevice() {
         System.out.println("Phone Switched Off!");
     }
 
     public void dialANumber(String number) {
-        this.switchOnDevice();
         System.out.println("Calling "+number);
     }
 
